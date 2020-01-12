@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+}
+
+body, html {
+  width: 100%;
+  min-width: 480px;
+}
+
+header, main, footer {
+  margin: auto;
+  width: 100%;
+}
+
+header, div, footer {
+  outline: 1px black solid;
+}
