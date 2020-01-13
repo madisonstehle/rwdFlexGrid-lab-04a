@@ -55,4 +55,37 @@
   }
 }
 
-/* @media (max-width: ) */
+@media (min-width: 641px) and (max-width: 768px) {
+  header {
+    background-color: #F4BBD3;
+  }
+  
+  #b {
+    background-color: #F686BD;
+  }
+
+  #c {
+    background-color: #FE5D9F;
+  }
+
+  #d {
+    background-color: #E4959E;
+  }
+  
+  #e {
+    background-color: #FFB8D1;
+  }
+  #f {
+    background-color: #BD6B73;
+  }
+  #g {
+    background-color: #987284;
+  }
+  #h {
+    background-color: #E75A7C;
+  }
+
+  footer {
+    background-color: #861657;
+  }
+}
