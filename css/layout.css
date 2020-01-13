@@ -110,3 +110,77 @@
     width: 100%;
   }
 }
+
+@media (min-width: 769px) {
+  header {
+    background-color: #C7B8EA;
+    height: 100px;
+    width: 100%;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  #b {
+    background-color: #9B97B2;
+    height: 600px;
+    width: 20.83%;
+  }
+
+  div {
+    display: flex;
+  }
+
+  #boxCD, #boxEFGH {
+    flex-direction: row;
+    width: 79.15%;
+  }
+
+  #boxCD {
+    height: 200px;
+  }
+
+  #c, #d {
+    height: 200px;
+    width: 50%;
+  }
+
+  #c {
+    background-color: #D8A7CA;
+  }
+
+  #d {
+    background-color: #AF42AE;
+  }
+  
+  #boxEFGH {
+    height: 250px;
+  }
+
+  #e, #f, #g, #h {
+    height: 250px;
+    width: 25%;
+  }
+
+  #e {
+    background-color: #694873;
+  }
+  #f {
+    background-color: #351431;
+  }
+  #g {
+    background-color: #785589;
+  }
+  #h {
+    background-color: #703D57;
+  }
+
+  footer {
+    background-color: #9B287B;
+    height: 150px;
+    width: 70.16%;
+  }  
+}
