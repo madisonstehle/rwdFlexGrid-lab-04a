@@ -110,3 +110,40 @@
     width: 100%;
   }
 }
+
+@media (min-width: 769px) {
+  header {
+    background-color: #C7B8EA;
+    height: 100px;
+    width: 100%;
+  }
+
+  #b {
+    background-color: #9B97B2;
+  }
+
+  #c {
+    background-color: #D8A7CA;
+  }
+
+  #d {
+    background-color: #AF42AE;
+  }
+  
+  #e {
+    background-color: #694873;
+  }
+  #f {
+    background-color: #351431;
+  }
+  #g {
+    background-color: #785589;
+  }
+  #h {
+    background-color: #703D57;
+  }
+
+  footer {
+    background-color: #9B287B;
+  }  
+}
