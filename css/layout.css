@@ -55,4 +55,58 @@
   }
 }
 
-/* @media (max-width: ) */
+@media (min-width: 641px) and (max-width: 768px) {
+  header {
+    background-color: #F4BBD3;
+    height: 100px;
+    width: 100%;
+  }
+  
+  #b {
+    background-color: #F686BD;
+    height: 200px;
+    width: 100%;
+  }
+
+  #c, #d {
+    height: 160px;
+    width: 100%;
+  }
+
+  #c {
+    background-color: #FE5D9F;
+  }
+
+  #d {
+    background-color: #E4959E;
+  }
+  
+  #boxEFGH {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #e, #f, #g, #h {
+    height: 250px;
+    width: 50%;
+  }
+
+  #e {
+    background-color: #FFB8D1;
+  }
+  #f {
+    background-color: #BD6B73;
+  }
+  #g {
+    background-color: #987284;
+  }
+  #h {
+    background-color: #E75A7C;
+  }
+
+  footer {
+    background-color: #861657;
+    height: 93.75px;
+    width: 100%;
+  }
+}
