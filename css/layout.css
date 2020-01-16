@@ -130,16 +130,28 @@
     width: 20.83%;
   }
 
+  /* main {
+    display: flex;
+    flex-direction: row;
+  } */
+
   div {
     display: flex;
   }
 
-  #boxCD, #boxEFGH {
-    flex-direction: row;
+  #boxCDEFGH {
+    /* flex-direction: row; */
+    flex-wrap: wrap;
     width: 79.15%;
+    height: 600px;
+  }
+
+  #boxCD, #boxEFGH {
+    width: 100%;
   }
 
   #boxCD {
+    flex-direction: row;
     height: 200px;
   }
 
@@ -158,6 +170,7 @@
   
   #boxEFGH {
     height: 250px;
+    align-self: flex-end;
   }
 
   #e, #f, #g, #h {
@@ -181,6 +194,6 @@
   footer {
     background-color: #9B287B;
     height: 150px;
-    width: 70.16%;
+    width: 100%;
   }  
 }
